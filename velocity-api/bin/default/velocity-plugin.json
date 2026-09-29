@@ -1,0 +1,1 @@
+{"id":"hydrogenapi","name":"HydrogenAPI","version":"0.7.2","description":"Shared Hydrogen services for Velocity plugins","authors":[],"dependencies":[],"provides":[],"main":"fr.nayz.hydrogen.velocity.HydrogenVelocityPlugin"}

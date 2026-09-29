@@ -1,0 +1,14 @@
+name: HydrogenAPI
+version: '${version}'
+main: fr.nayz.hydrogen.paper.HydrogenPaperPlugin
+api-version: '26.2'
+depend: [EnderCloud]
+description: Shared Hydrogen services for Paper plugins
+commands:
+  matchmaking:
+    description: Diagnostic du matchmaking Hydrogen
+    usage: /matchmaking <join|leave|status|assignment>
+    permission: hydrogen.admin.matchmaking
+permissions:
+  hydrogen.admin.matchmaking:
+    default: false
